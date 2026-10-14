@@ -300,5 +300,4 @@ def rai2026():
     <p class="plain-text">جميع الحقوق محفوظة @YOUCEFBISSAR</p>
     <script>document.title = "rai2026";</script>
 """).style("direction:rtl; text-align:right;")
-import os
-if name == 'main': port = int(os.environ.get("PORT", 8080)) start_server(rai2026, host='0.0.0.0', port=port)
+start_server(rai2026 , host="0.0.0.0" , port=8080)
